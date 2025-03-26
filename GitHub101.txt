@@ -27,7 +27,7 @@ Jeżeli chcecie więcej się dowiedzieć (https://rogerdudler.github.io/git-guid
 git pull https://github.com/grupStat/proj1
 
 
-* Żeby było łatwiej każdy z nas będzie pracował na osobnej branch (gałęzi), żeby sobie nie przeszkadzać. Wpisz “git branch -d <nazwa>” - ja nazwałam swoją od pierwszych liter imienia i nazwiska więc wy też możecie
+* Żeby było łatwiej każdy z nas będzie pracował na osobnej branch (gałęzi), żeby sobie nie przeszkadzać. Wpisz “git branch <nazwa>” - ja nazwałam swoją od pierwszych liter imienia i nazwiska więc wy też możecie
 
 
 * Żeby wyświetlić czy faktycznie udało wam się stworzyć nową “branch” wpiszcie 
