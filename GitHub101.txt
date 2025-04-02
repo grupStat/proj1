@@ -1,0 +1,43 @@
+﻿!UWAGA! nauczenie się tego programu jest dobrowolne, jeżeli nie chcecie, możecie po prostu wysyłać kod na messengerze
+
+
+1. Czym jest git?
+Git to jest program kontroli wersji. Przykład: wyobraź sobie swoje CV, które w przeciągu lat edytujesz żeby dodać nowe doświadczenia. Jeżeli zapiszesz zmiany w pliku to nie będziesz wiedział jak wyglądało twoje CV kilka lat temu, rozwiązaniem może być zapisywanie każdego update’u jako osobny plik albo użycie właśnie Gita.
+
+
+2. Czym jest GitHub?
+Github to strona na której różni ludzie mogą kolaborować i współpracować na tych samych plikach.
+
+
+3. Tutorial
+* Zainstalujcie git bash (https://git-scm.com/downloads)
+Jeżeli chcecie więcej się dowiedzieć (https://rogerdudler.github.io/git-guide/)
+
+
+* Stwórz folder o nazwie grupStat (lub statystyka jak wolisz) na swoim komputerze a w środku kolejny folder proj1 (nazwa może być dowolna tak naprawdę)
+
+
+* (windows/lenovo) Lewy przycisk myszy → Pokaż więcej opcji → Git Bash Here
+
+
+* wpisz “git init” <– ta komenda pozwala utworzyć (na razie) puste repozytorium czyli git może monitorować pliki w środku - utworzy to ukryty folder .git
+
+
+* Żebyśmy wszyscy mogli pracować na tym samym pliku musimy użyć komendy git pull i podać link do naszego wspólnego repozytorium.
+git pull https://github.com/grupStat/proj1
+
+
+* Żeby było łatwiej każdy z nas będzie pracował na osobnej branch (gałęzi), żeby sobie nie przeszkadzać. Wpisz “git branch <nazwa>” - ja nazwałam swoją od pierwszych liter imienia i nazwiska więc wy też możecie
+
+
+* Żeby wyświetlić czy faktycznie udało wam się stworzyć nową “branch” wpiszcie 
+“git branch  --list”. Pomimo stworzenia nowej gałęzi i tak dalej jesteście na poprzedniej, żeby ją zmienić wpiszcie “git checkout <nazwa>”
+
+
+   * Super! Teraz możecie pracować. Kiedy wprowadzicie zmiany do swojego pliku musicie otworzyć ponownie git bash i wpisać “git add .”, kropka oznacza wszystko, czyli wszystkie zmiany dodajemy do gita. Później, git commit -m “<komentarz>”, musimy wpisać komentarz inaczej nam nie zaliczy. Na razie dodaliśmy i zaakceptowaliśmy zmiany lokalnie na naszym komputerze więc musimy użyć kolejnej finałowej komendy “git push” aby przekazać postępy na github!
+
+
+   * Ostatni krok powtarzamy za każdym razem gdy zrobiliśmy zmiany, które chcemy dodać do projektu.
+
+
+   * Łączeniem gałęzi - tak zwanym mergem, zajmę się ja, chociaż nie jest to trudne to jakby, nie wszystko na raz.

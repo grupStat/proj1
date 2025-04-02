@@ -1,0 +1,8 @@
+Zobaczcie na zrzutach ekranu - w zależności od tego czy jestem na branchu master czy olikam
+pokazują mi się inne pliki (!), ponieważ oba branche nie są jeszcze zmergowane - można
+łączyć master z naszymi (kiedy ktoś inny wykonał pracę) lub nasz z masterem (kiedy my wykonaliśmy pracę)
+
+dodatkowo: z git bash możemy robić fajne rzeczy tj.
+mkdir <nazwa> - tworzy nowy folder
+touch <nazwa> - tworzy nowy plik 
+cd <ścieżka> - wejście do konkretnego folderu, żeby np. tam stworzyć plik
